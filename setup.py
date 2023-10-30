@@ -9,7 +9,7 @@ with io.open("README.md", encoding="utf-8") as fr:
 if __name__ == "__main__":
     setuptools.setup(
         name="LexiLang",
-        version="1.0.0",
+        version="1.0.1",
         author="Piero Toffanin",
         author_email="pt@masseranolabs.com",
         maintainer="Piero Toffanin",
@@ -33,4 +33,5 @@ if __name__ == "__main__":
             "Topic :: Text Processing :: Linguistic",
         ],
         packages=["lexilang"],
+        package_data={"lexilang": ["data/words.pickle"]}
     )
