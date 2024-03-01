@@ -2054,7 +2054,6 @@ wild
 object
 equipment
 phase
-3h
 sword
 leaves
 treat
@@ -2766,7 +2765,6 @@ blockchain
 diplomacy
 meaning
 charisma
-2h
 clock
 additional
 normie
