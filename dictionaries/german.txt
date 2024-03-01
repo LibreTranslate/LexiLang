@@ -1006,7 +1006,6 @@ worden
 Millionen
 Wiedersehen
 Onkel
-#
 kennst
 sitzen
 weniger
@@ -1935,7 +1934,6 @@ Meer
 Hut
 zuvor
 lief
-&
 Doug
 Haltet
 Zeitung
@@ -4148,7 +4146,6 @@ besseres
 Ausgang
 anschauen
 Anklage
-=
 Töten
 Spielchen
 sie's
@@ -5238,7 +5235,6 @@ Liebhaber
 Irrtum
 hübschen
 Heroin
-/font
 font
 begrüßen
 Baxter
@@ -5464,7 +5460,6 @@ Entführung
 duschen
 deins
 Dawn
-color=
 Bryce
 Australien
 ausgelöst
@@ -7322,7 +7317,6 @@ neuesten
 Moore
 Mitch
 Landung
-Korrektur/Anpassung
 Kellnerin
 Hai
 geradeaus
@@ -9438,7 +9432,6 @@ Muschi
 Mokona
 Marlowe
 Köpfen
-km/h
 Hinterlassen
 gewöhnliche
 füreinander
