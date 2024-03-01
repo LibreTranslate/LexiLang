@@ -951,7 +951,6 @@ sound
 snow
 below
 starts
-u200e
 trust
 info
 tier
@@ -1151,7 +1150,6 @@ lower
 fault
 buh
 delete
-640
 profile
 boring
 ty
@@ -1311,7 +1309,6 @@ character
 neutral
 ofc
 force
-16579836
 mother
 cut
 manage
@@ -2023,7 +2020,6 @@ argentina
 france
 chances
 growing
-720
 spawn
 vacation
 alive
@@ -2191,7 +2187,6 @@ considered
 stops
 runs
 discussed
-1280
 followed
 ridiculous
 oooh
@@ -2358,7 +2353,6 @@ prior
 yoongi
 teenage
 rvr
-u200b
 scorer
 votes
 legend
@@ -2633,7 +2627,6 @@ risk
 poker
 username
 steel
-500
 krakens
 enjoying
 purpose
@@ -2728,7 +2721,6 @@ british
 elf
 hyein
 kings
-630
 fighter
 invasion
 highly
