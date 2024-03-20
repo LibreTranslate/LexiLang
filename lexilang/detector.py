@@ -3,12 +3,10 @@ import os
 from .languages import get_language_weight, is_cjk
 
 _words = None
-_abbreviations = None
 _translate_table = str.maketrans(dict.fromkeys("!\"#$%&()*+,/:;<=>?@[\\]^_`{|}~.", " "))  # not included ' -
 
 def detect(text, languages=[]):
     global _words
-    global _abbreviations
 
     if _words is None:
         # Initialize
@@ -23,7 +21,6 @@ def detect(text, languages=[]):
 
     text = text.lower().strip()
     text = text.translate(_translate_table)
-
     if is_cjk(text):
         tokens = list(text)
     else:
