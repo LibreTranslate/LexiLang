@@ -3,7 +3,7 @@ import os
 from .languages import get_language_weight, is_cjk
 
 _words = None
-_translate_table = str.maketrans(dict.fromkeys("!\"#$%&()*+,/:;<=>?@[\\]^_`{|}~", " "))  # not included . ' -
+_translate_table = str.maketrans(dict.fromkeys("!\"#$%&()*+,/:;<=>?@[\\]^_`{|}~.", " "))  # not included ' -
 
 def detect(text, languages=[]):
     global _words
@@ -11,13 +11,14 @@ def detect(text, languages=[]):
     if _words is None:
         # Initialize
         words_file = os.path.join(os.path.dirname(__file__), "data", "words.pickle")
+
         if not os.path.isfile(words_file):
             from .utils import compile_data
             compile_data()
-        
+
         with open(words_file, "rb") as f:
             _words = pickle.load(f, encoding="utf-8")
-    
+
     text = text.lower().strip()
     text = text.translate(_translate_table)
     if is_cjk(text):

@@ -26,7 +26,4 @@ def compile_data():
     outfile = os.path.join(root_dir, "lexilang", "data", "words.pickle")
     with open(outfile, "wb") as f:
         pickle.dump(words, f, protocol=4)
-
     print(outfile)
-
-
