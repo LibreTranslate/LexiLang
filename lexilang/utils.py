@@ -7,7 +7,6 @@ root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 def compile_data():
     print("Compiling database...")
     words = {}
-    abbreviations = set()
     langs = get_supported_languages()
     for name in langs:
         code = langs[name]
@@ -21,17 +20,10 @@ def compile_data():
                         words[tok] = [code]
                     elif not code in words[tok]:
                         words[tok].append(code)
-                    if '.' in tok:
-                        abbreviations.add(tok)
 
     print("Serializing...")
 
     outfile = os.path.join(root_dir, "lexilang", "data", "words.pickle")
     with open(outfile, "wb") as f:
         pickle.dump(words, f, protocol=4)
-    print(outfile)
-
-    outfile = os.path.join(root_dir, "lexilang", "data", "abbreviations.pickle")
-    with open(outfile, "wb") as f:
-        pickle.dump(abbreviations, f, protocol=4)
     print(outfile)
