@@ -22,13 +22,15 @@ def get_supported_languages():
         'hungarian': 'hu', 
         'indonesian': 'id', 
         'italian': 'it', 
-        'japanese': 'ja', 
+        'japanese': 'ja',
+        'kabyle': 'kab',
         'kazakh': 'kk', 
         'korean': 'ko', 
         'latvian': 'lv', 
         'lithuanian': 'lt', 
         'macedonian': 'mk', 
-        'norwegian': 'nb', 
+        'norwegian': 'nb',
+        'occitan': 'oc',
         'polish': 'pl', 
         'portuguese': 'pt', 
         'romanian': 'ro', 
@@ -65,6 +67,8 @@ _weights = {
     'it': 0.068,
     'th': 0.061,
     'ca': 0.0081,
+    'kab': 0.0055,
+    'oc': 0.0008,
 }
 
 def get_language_weight(code):
