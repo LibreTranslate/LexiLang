@@ -49,12 +49,14 @@ print(detect("ciao", languages=["de", "ro"])) # ('de', 0.45)
  * Indonesian
  * Italian
  * Japanese
+ * Kabyle
  * Kazakh
  * Korean
  * Latvian
  * Lithuanian
  * Macedonian
  * Norwegian
+ * Occitan
  * Polish
  * Portuguese
  * Romanian
