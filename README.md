@@ -29,6 +29,7 @@ print(detect("ciao", languages=["de", "ro"])) # ('de', 0.45)
  * Afrikaans
  * Albanian
  * Arabic
+ * Basque
  * Bengali
  * Bulgarian
  * Catalan
