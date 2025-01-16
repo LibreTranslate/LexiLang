@@ -2,7 +2,8 @@ def get_supported_languages():
     return {
         'afrikaans': 'af', 
         'albanian': 'sq', 
-        'arabic': 'ar', 
+        'arabic': 'ar',
+        'basque': 'eu',
         'bengali': 'bn', 
         'bulgarian': 'bg', 
         'catalan': 'ca', 
@@ -68,6 +69,7 @@ _weights = {
     'th': 0.061,
     'ca': 0.0081,
     'kab': 0.0055,
+    'eu': 0.001,
     'oc': 0.0008,
 }
 
