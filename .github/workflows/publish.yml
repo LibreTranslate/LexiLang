@@ -25,6 +25,9 @@ jobs:
     - name: Install dependencies
       run: |
         pip install build
+    - name: Compile dictionaries
+      run: |
+        python -c "from lexilang.utils import compile_data; compile_data()"
     - name: Build
       run: |
         python -m build
