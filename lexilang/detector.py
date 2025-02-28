@@ -28,7 +28,7 @@ def detect(text, languages=[]):
 
     lang_bins = {}
     for tok in tokens:
-        if tok in _words:
+        if tok and tok in _words:
             for lang in _words[tok]:
                 if (not languages) or (lang in languages):
                     if not lang in lang_bins:
